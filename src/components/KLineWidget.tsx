@@ -105,32 +105,28 @@ export class KLineWidget extends React.Component<Props> {
                 }
             }
         }
-        const res = await apiGet<any>("chart", void 0, {
-            params: {
-                symbol: symbol,
-                // period: this.interval,
-                // size: size > 2000 ? 2000 : size,
-            },
-        });
-
+        const res = await apiGet<any>(
+            "chart",
+            `?group=${symbol}&from=0&to=1617008403652&resolution=${intervalMap[this.interval]}`,
+            {});
         if (
             params.resolution === intervalMap[this.interval] &&
             params.firstDataRequest &&
             res &&
-            res.Data.length
+            res.data.length
         ) {
             this.subscribeKLine();
         }
 
-        if (!res || !res.Data || !res.Data.length) {
+        if (!res || !res.data || !res.data.length) {
             return {
                 bars: [],
                 meta: {noData: true},
             };
         }
         const list: Bar[] = [];
-        for (let i = 0; i < res.Data.length; i++) {
-            const item = res.Data[i];
+        for (let i = 0; i < res.data.length; i++) {
+            const item = res.data[i];
             list.push({
                 time: item.id * 1000,
                 open: item.open,

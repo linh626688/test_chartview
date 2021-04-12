@@ -2,7 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ced48de-f2e0-462d-a308-972b3a28a26e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../tradingview-api/lib/library.min.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../tradingview-api/lib/library.min.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/KLineHeader.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/KLineHeader.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/KLineWidget.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/KLineWidget.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/typings/api.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/typings/api.d.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +39,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1qulIMEq5y3fSITITgftFvzyNcN" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -82,7 +90,9 @@
       <workItem from="1617937275935" duration="2863000" />
       <workItem from="1618027824404" duration="4881000" />
       <workItem from="1618117373098" duration="606000" />
-      <workItem from="1618146545990" duration="6125000" />
+      <workItem from="1618146545990" duration="7577000" />
+      <workItem from="1618193577318" duration="13000" />
+      <workItem from="1618240097686" duration="3121000" />
     </task>
     <servers />
   </component>
@@ -94,22 +104,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1618042373853" />
-    <state width="1877" height="252" key="GridCell.Tab.0.bottom" timestamp="1618152900558">
+    <state width="1877" height="252" key="GridCell.Tab.0.bottom" timestamp="1618162365954">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="252" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1618152900558" />
-    <state width="1877" height="252" key="GridCell.Tab.0.center" timestamp="1618152900558">
+    <state width="1877" height="252" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1618162365954" />
+    <state width="1877" height="252" key="GridCell.Tab.0.center" timestamp="1618162365954">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="252" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1618152900558" />
-    <state width="1877" height="252" key="GridCell.Tab.0.left" timestamp="1618152900557">
+    <state width="1877" height="252" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1618162365954" />
+    <state width="1877" height="252" key="GridCell.Tab.0.left" timestamp="1618162365953">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="252" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1618152900557" />
-    <state width="1877" height="252" key="GridCell.Tab.0.right" timestamp="1618152900558">
+    <state width="1877" height="252" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1618162365953" />
+    <state width="1877" height="252" key="GridCell.Tab.0.right" timestamp="1618162365954">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="252" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1618152900558" />
+    <state width="1877" height="252" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1618162365954" />
     <state x="624" y="142" key="VCS.ChangeListViewerDialog" timestamp="1618043063580">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

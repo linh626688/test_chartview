@@ -27,6 +27,8 @@ class App extends React.Component<Props, State> {
 
   public setSymbol = (symbol: string) => {
     const symbolInfo = this.state.symbolList.find((e) => e === symbol);
+    console.log('symbolList',this.state.symbolList)
+    console.log('symbol',symbol)
     if (!symbolInfo) {
       return;
     }

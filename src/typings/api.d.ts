@@ -1,7 +1,6 @@
 interface IApiResponse<T> {
-  data: T;
   groups: string[];
-  Data: any[];
+  data: any;
 }
 
 interface IApiSymbols {

@@ -25,11 +25,11 @@ export const KLineHeader = (props: Props) => {
                 const isActive = name === e;
                 return (
                     <Button
-                        key={e.symbol}
+                        key={e}
                         size={"small"}
                         variant="outlined"
                         color={isActive ? "secondary" : "primary"}
-                        onClick={() => onClick(e.symbol)}
+                        onClick={() => onClick(e)}
                     >
                         {e}
                     </Button>

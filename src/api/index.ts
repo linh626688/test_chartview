@@ -11,7 +11,7 @@ export const API_URL = {
    */
   common_symbols: "/v1/common/symbols",
   groups: "/groups",
-  chart: "/chart/history?group=mid&from=0&to=1617008403652&resolution=5",
+  chart: "/chart/history",
   /**
    * K线数据
    */
