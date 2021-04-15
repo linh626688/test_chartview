@@ -19,14 +19,14 @@ import {showError, showSuccess} from "../../../utils/toast-utils";
 import {isEmpty} from 'lodash';
 
 function Login(props) {
-  const [email, setEmail] = useState('');
+  const [userName, setUserName] = useState('');
   const [password, setPassword] = useState('');
 
 
   const handleChangeInput = e => {
     const {name, value} = e.target;
-    if (name === 'email') {
-      setEmail(value)
+    if (name === 'userName') {
+      setUserName(value)
     }
     if (name === 'password') {
       setPassword(value)
@@ -35,23 +35,18 @@ function Login(props) {
 
   const handleSubmitLogin = () => {
     const payload = {
-      email,
+      userName,
       password
     };
     callApi(API_ROUTES.LOGIN, METHODS.POST, payload)
       .then(response => {
-          if (response.data.success) {
-            const {accessToken} = response.data.data;
-            window.localStorage.setItem(ACCESS_TOKEN, accessToken);
+          if (response && response.data) {
+            const {access_token} = response.data;
+            window.localStorage.setItem(ACCESS_TOKEN, access_token);
             showSuccess("Đăng nhập thành công");
             props.history.push('/');
           } else {
-            const {errors} = response.data.data;
-            if (!isEmpty(errors)) {
-              const {errorCode} = errors.shift()
-              const {errorMessage}= ERROR_CODES.filter((value) => value.errorCode === errorCode).shift()
-              showError(errorMessage)
-            }
+            showError("Đăng nhập không thành công");
           }
         }
       )
@@ -59,6 +54,12 @@ function Login(props) {
         showError(error);
         console.log('error', error);
       });
+  };
+
+  const handleKeyPress = (event) => {
+    if (event.key === 'Enter' && !isEmpty(userName) && !isEmpty(password)) {
+      handleSubmitLogin()
+    }
   };
 
   return (
@@ -80,10 +81,11 @@ function Login(props) {
                       </InputGroupAddon>
                       <Input type="text"
                              placeholder="Tài khoản"
-                             value={email}
+                             value={userName}
                              onChange={e => handleChangeInput(e)}
-                             name='email'
-                             autoComplete="email"/>
+                             name='userName'
+                             onKeyPress={handleKeyPress}
+                             autoComplete="userName"/>
                     </InputGroup>
                     <InputGroup className="mb-4">
                       <InputGroupAddon addonType="prepend">
@@ -96,6 +98,7 @@ function Login(props) {
                              value={password}
                              onChange={e => handleChangeInput(e)}
                              name='password'
+                             onKeyPress={handleKeyPress}
                              autoComplete="current-password"/>
                     </InputGroup>
                     <Row>

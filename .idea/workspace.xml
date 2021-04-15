@@ -2,106 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ced48de-f2e0-462d-a308-972b3a28a26e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/App.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/App.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_nav.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/apiRoute.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/brand/avatar-png-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/brand/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/brand/logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/brand/sygnet.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/constants/constants.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/DefaultLayout/DefaultAside.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/DefaultLayout/DefaultFooter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/DefaultLayout/DefaultHeader.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/DefaultLayout/DefaultLayout.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/DefaultLayout/__tests__/DefaultAside.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/DefaultLayout/__tests__/DefaultFooter.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/DefaultLayout/__tests__/DefaultHeader.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/DefaultLayout/__tests__/DefaultLayout.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/DefaultLayout/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/DefaultLayout/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/polyfill.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/_custom.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/_ie-fix.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/_variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/style.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/vendors/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/vendors/_variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/serviceWorker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/setupTests.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/PrivateRoute.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/toast-utils.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/Icons/CoreUIIcons/CoreUIIcons.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/Icons/CoreUIIcons/CoreUIIcons.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/Icons/CoreUIIcons/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/Icons/Flags/Flags.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/Icons/Flags/Flags.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/Icons/Flags/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/Icons/FontAwesome/FontAwesome.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/Icons/FontAwesome/FontAwesome.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/Icons/FontAwesome/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/Icons/SimpleLineIcons/SimpleLineIcons.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/Icons/SimpleLineIcons/SimpleLineIcons.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/Icons/SimpleLineIcons/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/Icons/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/Line/Line.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/Pages/Login/Login.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/Pages/Login/Login.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/Pages/Login/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/Pages/Page404/Page404.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/Pages/Page404/Page404.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/Pages/Page404/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/Pages/Page500/Page500.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/Pages/Page500/Page500.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/Pages/Page500/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/Pages/Register/Register.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/Pages/Register/Register.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/Pages/Register/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/Pages/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/Theme/Colors/Colors.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/Theme/Colors/Colors.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/Theme/Colors/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/Theme/Typography/Typography.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/Theme/Typography/Typography.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/Theme/Typography/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/Theme/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/Widgets/Widget01.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/Widgets/Widget02.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/Widgets/Widget03.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/Widgets/Widget04.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/Widgets/Widgets.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/Widgets/Widgets.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/Widgets/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/spinner/SpinnerCustom.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/spinner/spinner.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api/axios.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/KLineHeader.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/KLineWidget.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/datafeed/datafeed.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/datafeed/library.min.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/datafeed/library.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reportWebVitals.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/setupProxy.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/setupTests.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/typings/api.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/typings/utils.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/requestUtils.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/requestUtils.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/socket.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/apiRoute.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/apiRoute.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Charts/utils/requestUtils.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Line/Line.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Line/Line.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Pages/Login/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Pages/Login/Login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -194,7 +103,8 @@
       <workItem from="1618392598652" duration="43000" />
       <workItem from="1618453816412" duration="4463000" />
       <workItem from="1618462367234" duration="320000" />
-      <workItem from="1618462728932" duration="1066000" />
+      <workItem from="1618462728932" duration="1690000" />
+      <workItem from="1618491242718" duration="5596000" />
     </task>
     <servers />
   </component>
@@ -214,22 +124,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1618462128148" />
-    <state width="1877" height="252" key="GridCell.Tab.0.bottom" timestamp="1618462689336">
+    <state width="1877" height="252" key="GridCell.Tab.0.bottom" timestamp="1618496936367">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="252" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1618462689336" />
-    <state width="1877" height="252" key="GridCell.Tab.0.center" timestamp="1618462689335">
+    <state width="1877" height="252" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1618496936367" />
+    <state width="1877" height="252" key="GridCell.Tab.0.center" timestamp="1618496936367">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="252" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1618462689335" />
-    <state width="1877" height="252" key="GridCell.Tab.0.left" timestamp="1618462689335">
+    <state width="1877" height="252" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1618496936367" />
+    <state width="1877" height="252" key="GridCell.Tab.0.left" timestamp="1618496936367">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="252" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1618462689335" />
-    <state width="1877" height="252" key="GridCell.Tab.0.right" timestamp="1618462689335">
+    <state width="1877" height="252" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1618496936367" />
+    <state width="1877" height="252" key="GridCell.Tab.0.right" timestamp="1618496936367">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="252" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1618462689335" />
+    <state width="1877" height="252" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1618496936367" />
     <state x="461" y="162" key="SettingsEditor" timestamp="1618462373943">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -238,17 +148,21 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="624" y="142" key="VCS.ChangeListViewerDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1618043063580" />
-    <state x="552" y="248" key="Vcs.Push.Dialog.v2" timestamp="1618244072790">
+    <state x="552" y="248" key="Vcs.Push.Dialog.v2" timestamp="1618466372604">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="248" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1618244072790" />
+    <state x="552" y="248" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1618466372604" />
+    <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1618494003877">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1618494003877" />
     <state x="645" y="236" width="647" height="568" key="find.popup" timestamp="1618462519231">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="645" y="236" width="647" height="568" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1618462519231" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1618463061865">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1618496521669">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1618463061865" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1618496521669" />
   </component>
 </project>
