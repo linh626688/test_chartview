@@ -4,8 +4,8 @@ import { KLineHeader } from "./components/KLineHeader";
 import { KLineWidget } from "./components/KLineWidget";
 import Paper from "@material-ui/core/Paper";
 import Grid from "@material-ui/core/Grid";
-import { ws } from "./utils/socket";
-import {callApi, METHODS} from "./utils/requestUtils";
+// import { ws } from "./utils/socket";
+// import {callApi, METHODS} from "./utils/requestUtils";
 
 type Props = {};
 type State = {
@@ -13,7 +13,7 @@ type State = {
   symbolInfo?: string;
   symbolList: string[];
 };
-class App extends React.Component<Props, State> {
+class Charts extends React.Component<Props, State> {
   private klineRfe: null | KLineWidget = null;
   constructor(props: Props) {
     super(props);
@@ -97,4 +97,4 @@ class App extends React.Component<Props, State> {
   }
 }
 
-export default App;
+export default Charts;

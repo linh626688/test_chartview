@@ -1,0 +1,137 @@
+// Here you can add other styles
+.style-image {
+  .img-wrap {
+    position: relative;
+    display: inline-block;
+    //border: 1px red solid;
+    font-size: 0;
+  }
+
+  .max-with-image-list {
+    //@media (max-width: 1400px) {
+    //  max-width: 200px;
+    //}
+    @media (max-width: 1750px) {
+      max-width: 200px;
+    }
+    @media (max-width: 1300px) {
+      max-width: 150px;
+    }
+    max-width: 300px;
+  }
+
+
+  .img-wrap .close {
+    position: absolute;
+    top: 2px;
+    right: 2px;
+    z-index: 100;
+    //background-color: #FFF;
+    padding: 5px 2px 2px;
+    color: #000;
+    font-weight: bold;
+    cursor: pointer;
+    opacity: .2;
+    text-align: center;
+    font-size: 22px;
+    line-height: 10px;
+    border-radius: 50%;
+  }
+
+  .img-wrap:hover .close {
+    opacity: 1;
+  }
+}
+
+.img-selected-bg {
+  border: 5px #58ff9a solid;
+}
+
+.display-flex {
+  display: grid;
+  grid-template-columns: 1fr 1fr 0.3fr;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.display-flex-search {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.max-width-modal {
+  max-width: 200px;
+}
+
+.list-image {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 10px;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: 0 0 0 0;
+  @media (max-width: 900px) {
+    & {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+  @media (max-width: 1200px) {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+
+.row-control-user {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  grid-gap: 20px;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: 0 0 0 0;
+}
+
+.row-control-item {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr 1fr 1fr 1.2fr;
+  grid-gap: 20px;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: 0 0 0 0;
+  @media (max-width: 1400px) {
+    & {
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+  }
+}
+
+.react-bootstrap-table table {
+  table-layout: auto !important;
+}
+
+.table-responsive {
+  overflow-x: hidden !important;
+}
+
+.react-datepicker-wrapper, .react-datepicker__input-container {
+  display: block !important;
+}
+
+.mw-120px {
+  max-width: 120px;
+}
+
+.text-ellipsis {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.text-break-line {
+  word-break: break-all
+}
+.null-user-selected {
+  width: 100%;
+  margin-top: 0.25rem;
+  font-size: 80%;
+  color: #f86c6b;
+}
